@@ -1,0 +1,11 @@
+User ID,Gender,Age,EstimatedSalary,Predicted_Purchased,Purchase_Probability,Prediction_Label
+15724611,Male,45,60000,1,0.5296,Purchased
+15725621,Female,79,64000,1,0.9994,Purchased
+15725622,Male,23,78000,0,0.0206,Not Purchased
+15720611,Female,34,45000,0,0.0634,Not Purchased
+15588044,Male,29,76000,0,0.0643,Not Purchased
+15746039,Female,70,89000,1,0.9982,Purchased
+15704887,Male,86,120000,1,1.0,Purchased
+15746009,Female,46,23000,0,0.2817,Not Purchased
+15876009,Male,32,70000,0,0.0948,Not Purchased
+15886009,Female,100,90000,1,1.0,Purchased

@@ -1,0 +1,49 @@
+{
+    "training_accuracy": 0.8533333333333334,
+    "test_accuracy": 0.81,
+    "roc_auc": 0.9127604166666667,
+    "confusion_matrix": [
+        [
+            58,
+            6
+        ],
+        [
+            13,
+            23
+        ]
+    ],
+    "classification_report": {
+        "Not Purchased (0)": {
+            "precision": 0.8169014084507042,
+            "recall": 0.90625,
+            "f1-score": 0.8592592592592593,
+            "support": 64.0
+        },
+        "Purchased (1)": {
+            "precision": 0.7931034482758621,
+            "recall": 0.6388888888888888,
+            "f1-score": 0.7076923076923077,
+            "support": 36.0
+        },
+        "accuracy": 0.81,
+        "macro avg": {
+            "precision": 0.8050024283632832,
+            "recall": 0.7725694444444444,
+            "f1-score": 0.7834757834757835,
+            "support": 100.0
+        },
+        "weighted avg": {
+            "precision": 0.8083341427877611,
+            "recall": 0.81,
+            "f1-score": 0.8046951566951567,
+            "support": 100.0
+        }
+    },
+    "test_size": 0.25,
+    "random_state": 0,
+    "features": [
+        "Age",
+        "EstimatedSalary"
+    ],
+    "target": "Purchased"
+}
